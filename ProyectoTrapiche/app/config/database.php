@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'sqlsrv',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -73,16 +73,50 @@ return array(
 			'prefix'   => '',
 			'schema'   => 'public',
 		),
+//                'sqlsrv' => array(
+//			'driver'   => 'sqlsrv',
+//			'host'     => 'EDER-PC\SQLEXPRESS',
+//			'database' => 'Trp_Trapiche',
+//			'username' => 'LocalHost',
+//			'password' => 'poicephalus',
+//			'prefix'   => '',
+//		),
+            
 
 		'sqlsrv' => array(
 			'driver'   => 'sqlsrv',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'host'     => 'Trapiche.mssql.somee.com',
+			'database' => 'Trapiche',
+			'username' => 'localhost',
+			'password' => 'poicephalus',
 			'prefix'   => '',
 		),
-
+//            'PermisosMenu' => array(
+//			'driver'   => 'sqlsrv',
+//			'host'     => 'PermisosMenu.mssql.somee.com',
+//			'database' => 'PermisosMenu',
+//			'username' => 'PermisosMenu',
+//			'password' => 'poicephalus',
+//			'prefix'   => '',
+//		),
+//             'PermisosTrapiche' => array(
+//			'driver'   => 'sqlsrv',
+//			'host'     => 'PermisosTrapiche.mssql.somee.com',
+//			'database' => 'PermisosTrapiche',
+//			'username' => 'PermisosTrapiche',
+//			'password' => '123Poicephalus',
+//			'prefix'   => '',
+//		),
+            
+//		'sqlsrv' => array(
+//			'driver'   => 'sqlsrv',
+//			'host'     => 'DESARROLLO\SQLSERVER2012',
+//			'database' => 'Trp_Trapiche',
+//			'username' => 'localhost',
+//			'password' => 'poicephalus',
+//			'prefix'   => '',
+//		),
+            
 	),
 
 	/*

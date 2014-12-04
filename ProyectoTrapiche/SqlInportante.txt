@@ -1,0 +1,10 @@
+--	EXEC sp_rename 'Vitaminizacion.DwrDateRecord', 'VtmDateRecord';
+--alter table Vitaminizacion add VtmIdUserLastEdition int
+--ALTER TABLE dbo.Herraje DROP COLUMN IrwIdEstate
+
+select O.name,C.name from sys.objects as O 
+JOIN sys.all_columns as C On (C.object_id=O.object_id)
+where O.name like '%Enferme%'
+
+
+------Script ejecutados en otra  Base de Datos datos---------

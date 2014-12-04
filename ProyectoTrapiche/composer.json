@@ -4,7 +4,11 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+		"cartalyst/sentry": "2.1.*",
+		"way/generators": "~2.0",
+		"barryvdh/laravel-debugbar": "~1.8",
+		"maatwebsite/excel": "~1.2.1"
 	},
 	"autoload": {
 		"classmap": [
